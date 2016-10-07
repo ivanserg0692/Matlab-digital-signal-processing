@@ -1,4 +1,4 @@
-% функция ДПФ
+%���
 function y= dpf(x)
 
 N = length(x);
