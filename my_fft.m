@@ -2,7 +2,7 @@ function x = my_fft(y)
 
 N = length(y);
 
-%прореживание по времени
+%РїСЂРѕСЂРµР¶РёРІР°РЅРёРµ РїРѕ РІСЂРµРјРµРЅРё
 countsubArray = 1;
 len_subArray = N;
 arr = y;
@@ -23,7 +23,7 @@ while (len_subArray ~= 1)
     len_subArray = len_;
     countsubArray = count_;
 end
-%одноточные спектры объединяем
+%РѕРґРЅРѕС‚РѕС‡РЅС‹Рµ СЃРїРµРєС‚СЂС‹ РѕР±СЉРµРґРёРЅСЏРµРј
 while(len_subArray ~= N)
     len_ = len_subArray * 2;
     count_ = countsubArray/2;
