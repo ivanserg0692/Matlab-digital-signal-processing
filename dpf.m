@@ -1,4 +1,4 @@
-%дот
+%п■п÷п╓
 function y= dpf(x)
 
 N = length(x);
