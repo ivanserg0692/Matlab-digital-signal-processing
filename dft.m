@@ -1,5 +1,4 @@
-%ДПФ
-function y= dpf(x)
+function y= dft(x)
 
 N = length(x);
 y=zeros(1,N);
