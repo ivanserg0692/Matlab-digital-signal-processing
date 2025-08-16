@@ -1,5 +1,5 @@
 # Matlab-digital-signal-processing
-Here I decided to spread, my scripts about laboratory work in digital signal processing
+Here I decided to spread, my scripts about a laboratory work of the digital signal processing
 ## dft.m 
 дискретное преобразование фурье 
 ## myIFFT.m
